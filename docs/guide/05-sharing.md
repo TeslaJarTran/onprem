@@ -4,9 +4,9 @@ onprem is built to hand to someone else. The handoff is short because the stack 
 
 ## The handoff
 
-Send the plugin directory (or a repo URL / `/add-plugin` entry once hosted). They do:
+Send the repo (https://github.com/TeslaJarTran/onprem) or the plugin directory. They do:
 
-1. Put it at `~/.cursor/plugins/local/onprem/`.
+1. `git clone https://github.com/TeslaJarTran/onprem ~/.cursor/plugins/local/onprem`, or put the directory there.
 2. Run `/setup-onprem`.
 3. Start a task with `/onprem-mode`.
 

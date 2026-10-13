@@ -12,7 +12,11 @@ this is our on-prem approach, packaged as a stack. the premise is simple: we run
 /add-plugin onprem
 ```
 
-or, for a local copy, put this directory at `~/.cursor/plugins/local/onprem/`.
+or, for a local copy:
+
+```bash
+git clone https://github.com/TeslaJarTran/onprem ~/.cursor/plugins/local/onprem
+```
 
 ## get started
 
