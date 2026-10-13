@@ -62,7 +62,7 @@ alwaysApply: true
 ---
 # onprem model configuration. One line per role. Delete a line to fall back to the skill default.
 # `inherit-parent` or `auto` as a value: the role runs on the parent chat model (omit Task `model`). Alias entries in a panel list still count toward its fan-out.
-# HARD LOCK allowlist: inherit-parent, Qwen/Qwen3.8-27B-FP8, Qwen/Qwen3.8-Flash-Next-FP8, moonshotai/Kimi-K3, zai-org/GLM-5.3. Never Claude/Anthropic, Gemini/Google, Grok/xAI, or OpenAI/GPT.
+# HARD LOCK allowlist: inherit-parent/auto, Qwen/Qwen3.8-27B-FP8, Qwen/Qwen3.8-Flash-Next-FP8, moonshotai/Kimi-K3, zai-org/GLM-5.3. Never Claude/Anthropic, Gemini/Google, Grok/xAI, or OpenAI/GPT.
 # budget: unlimited (max)
 feature, refactoring: Qwen/Qwen3.8-Flash-Next-FP8
 bug-fix: Qwen/Qwen3.8-Flash-Next-FP8
