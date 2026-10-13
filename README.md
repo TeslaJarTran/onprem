@@ -12,11 +12,13 @@ this is our on-prem approach, packaged as a stack. the premise is simple: we run
 /add-plugin onprem
 ```
 
-or, for a local copy:
+once it is published in the marketplace. until then, for a local copy:
 
 ```bash
-git clone https://github.com/TeslaJarTran/onprem ~/.cursor/plugins/local/onprem
+mkdir -p ~/.cursor/plugins/local && git clone https://github.com/TeslaJarTran/onprem ~/.cursor/plugins/local/onprem
 ```
+
+start a new chat after installing, and reload the window (developer: reload window) if the skills do not appear. cursor picks up local plugins at startup.
 
 ## get started
 
