@@ -22,7 +22,7 @@ git clone https://github.com/TeslaJarTran/onprem ~/.cursor/plugins/local/onprem
 
 two steps:
 
-1. run [`/setup-onprem`](./skills/setup-onprem/SKILL.md). it detects the on-prem models you have, strips the banned set, asks for a reasoning budget (default `unlimited`), maps a model to each role, validates every slug, and writes `~/.cursor/rules/onprem-models.mdc`.
+1. run [`/setup-onprem`](./skills/setup-onprem/SKILL.md). it detects the on-prem models you have, strips the banned set, confirms the unlimited (max) budget, maps a model to each role, validates every slug, and writes `~/.cursor/rules/onprem-models.mdc`.
 2. use [`/onprem-mode`](./skills/onprem-mode/SKILL.md) whenever you're doing anything that must stay on-prem.
 
 new here? the [onprem guide](./docs/guide/README.md) walks you through setup, the lock, and the principles. stuck, or unsure which skill fits? ask [`/onprem-help`](./skills/onprem-help/SKILL.md).
